@@ -5,7 +5,8 @@
   "dependencies": {
     "meteor-node-stubs": "^0.2.5",
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-dom": "^15.4.2",
+    "react-meteor-data": "^0.2.10"
   },
   "devDependencies": {
     "autoprefixer": "6.7.2",
