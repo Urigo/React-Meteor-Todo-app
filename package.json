@@ -48,6 +48,7 @@
     "whatwg-fetch": "2.0.2"
   },
   "scripts": {
+    "api": "cd api && meteor run --port=8000",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
