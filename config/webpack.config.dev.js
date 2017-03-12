@@ -83,7 +83,15 @@ module.exports = {
       'api': path.resolve(__dirname, '../api/server')
     }
   },
-  
+  externals: [
+    function resolveMeteor(context, request, callback) {
+      var match = request.match(/^meteor\/(.+)$/);
+      var pack = match && match[1];
+      var locator = pack && 'Package["' + pack + '"]';
+
+      return locator ? callback(null, locator) : callback();
+    }
+  ],
   module: {
     // First, run the linter.
     // It's important to do this before Babel processes the JS.
