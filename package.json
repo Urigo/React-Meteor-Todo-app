@@ -51,7 +51,8 @@
     "api": "cd api && meteor run --port=8000",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "bundle-meteor-client": "meteor-client bundle -s api --url=localhost:8000"
   },
   "jest": {
     "collectCoverageFrom": [
