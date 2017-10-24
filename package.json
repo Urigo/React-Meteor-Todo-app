@@ -41,7 +41,7 @@
     "meteor-client-bundler": "^0.1.1",
     "node-sass": "^4.5.0",
     "object-assign": "4.1.1",
-    "postcss-loader": "1.2.2",
+    "postcss-loader": "2.0.8",
     "promise": "7.1.1",
     "react-dev-utils": "^0.5.2",
     "sass-loader": "^6.0.3",
